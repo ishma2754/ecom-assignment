@@ -92,7 +92,7 @@ function App() {
             <div key={product.id} className="container">
               <img src={product.image} alt={product.title} className="image" />
               <h2>{product.title}</h2>
-              <p>{product.description.slice(0, 100)}</p>
+              <p>{product.category}</p>
               <p>Price: ${product.price}</p>
             </div>
           ))
